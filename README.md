@@ -1,9 +1,3 @@
-# taglifes.mvp
-
-Com certeza! Aqui está o `README.md` completamente atualizado com o nome **Taglifes** e o domínio **taglifes.com**, pronto para ser usado na apresentação do seu projeto.
-
----
-
 # 🩺 Taglifes – Segurança e Tranquilidade a um Scan de Distância
 
 > **Status:** 💡 Ideia / Conceito (a validar)
