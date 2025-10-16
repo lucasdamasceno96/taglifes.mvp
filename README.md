@@ -12,6 +12,8 @@
 
 Em caso de acidente, basta escanear o QR Code para exibir uma página pública minimalista, projetada para socorristas e transeuntes acessarem rapidamente as informações que podem salvar uma vida.
 
+Veja a landingpage: https://github.com/lucasdamasceno96/taglifes.mvp
+
 ---
 
 ## 🧠 Propósito
