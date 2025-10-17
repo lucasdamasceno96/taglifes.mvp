@@ -38,7 +38,14 @@
 </head>
 <body class="bg-white text-gray-800 font-sans">
 
-    <header class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 w-full z-50 shadow-sm">
+    <div class="bg-primary text-white text-center p-3 fixed top-0 w-full z-50 shadow-lg">
+        <p class="font-semibold">
+            🚀 Projeto em construção! Lançamento oficial em Dezembro/2025.
+            <a href="#lancamento" class="underline hover:text-light transition-colors">Seja o primeiro a saber e garanta seu desconto!</a>
+        </p>
+    </div>
+
+    <header class="bg-white/80 backdrop-blur-lg fixed top-12 left-0 w-full z-40 shadow-sm">
         <div class="container mx-auto px-6 py-4">
             <nav class="flex justify-between items-center">
                 <a href="#" class="text-2xl font-bold text-primary">Taglifes.com</a>
@@ -47,8 +54,8 @@
                     <a href="#produtos" class="text-gray-600 hover:text-primary transition-colors">Produtos</a>
                     <a href="#precos" class="text-gray-600 hover:text-primary transition-colors">Preços</a>
                 </div>
-                <a href="#precos" class="hidden md:block bg-accent text-white font-semibold px-5 py-2 rounded-lg hover:bg-accent-dark transition-colors">
-                    Assine Agora
+                <a href="#lancamento" class="hidden md:block bg-accent text-white font-semibold px-5 py-2 rounded-lg hover:bg-accent-dark transition-colors">
+                    Seja Avisado!
                 </a>
                 <div class="md:hidden">
                     <button class="text-gray-700">
@@ -60,18 +67,18 @@
     </header>
 
     <main>
-        <section class="pt-28 md:pt-36">
+        <section class="pt-36 md:pt-48">
             <div class="container mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="text-center md:text-left">
                         <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
-                            Segurança para sua família a um <span class="text-primary">scan</span> de distância.
+                            Segurança para sua família <span class="text-primary">e seus pets</span> a um scan de distância.
                         </h1>
                         <p class="text-lg text-gray-600 max-w-xl mx-auto md:mx-0 mb-8">
-                            Crie perfis de emergência com QR Code, receba sua pulseira e viva com mais tranquilidade sabendo que informações vitais estão sempre acessíveis.
+                            Crie perfis de emergência com QR Code, receba nossos produtos e viva com mais tranquilidade sabendo que informações vitais estão sempre acessíveis.
                         </p>
-                        <a href="#precos" class="bg-primary text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-primary-dark transition-transform transform hover:scale-105 inline-block">
-                            Ver Planos
+                        <a href="#lancamento" class="bg-primary text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-primary-dark transition-transform transform hover:scale-105 inline-block">
+                            Quero Ser Avisado do Lançamento
                         </a>
                     </div>
                     
@@ -120,16 +127,15 @@
             </div>
         </section>
 
-
-<section id="produtos" class="py-20 md:py-28 bg-light">
+        <section id="produtos" class="py-20 md:py-28 bg-light">
             <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-12">
+                <div class="text-center max-w-3xl mx-auto mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Seu Perfil de Segurança em Produtos para o Dia a Dia</h2>
                 </div>
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="text-center">
                         <img src="./pulseira.webp" alt="Pulseira de silicone preta com placa de metal e QR Code" class="rounded-lg shadow-xl mb-6 mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
-                        <h3 class="text-2xl font-bold text-gray-900">Pulseira de Silicone (Inclusa)</h3>
+                        <h3 class="text-2xl font-bold text-gray-900">Pulseira de Silicone</h3>
                         <p class="text-gray-600 mt-2 max-w-md mx-auto">Confortável, durável e à prova d'água. Ideal para atletas, crianças e idosos. A primeira pulseira já está inclusa em qualquer plano anual.</p>
                     </div>
                     <div class="text-center">
@@ -141,64 +147,103 @@
             </div>
         </section>
         
-        <section id="precos" class="py-20 md:py-28 bg-white">
+        <section id="pets" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">E para o seu melhor amigo também!</h2>
+                        <p class="text-lg text-gray-600 mb-6">Porque a segurança deles é tão importante quanto a nossa. Crie um perfil para seu pet com informações de contato, dados do veterinário e qualquer cuidado especial.</p>
+                        <h3 class="text-2xl font-bold text-gray-900">Coleira com QR Code</h3>
+                        <p class="text-gray-600 mt-2">Leve, resistente e segura. Caso seu pet se perca, qualquer pessoa que o encontrar pode escanear a tag e entrar em contato com você imediatamente.</p>
+                    </div>
+                    <div class="flex justify-center">
+                         <img src="./pet.jpg" alt="Coleira para pet com tag de identificação QR Code" class="rounded-lg shadow-xl mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="precos" class="py-20 md:py-28 bg-light">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Escolha o plano ideal para sua tranquilidade</h2>
                 </div>
                 <div class="flex flex-col lg:flex-row justify-center items-center gap-8">
-                    <div class="w-full max-w-md border border-gray-200 rounded-xl p-8 shadow-lg transform hover:-translate-y-2 transition-transform">
+                    <div class="w-full max-w-md border border-gray-200 rounded-xl p-8 shadow-lg transform hover:-translate-y-2 transition-transform bg-white">
                         <h3 class="text-2xl font-bold text-gray-900">Individual</h3>
                         <p class="text-gray-500 mt-2">Perfeito para uso pessoal.</p>
                         <div class="my-6">
                             <span class="text-5xl font-extrabold text-gray-900">R$ 39,90</span>
                             <span class="text-gray-500">/por ano</span>
+                            <p class="text-gray-700 font-semibold mt-2">ou 12x de R$ 3,33 sem juros</p>
+                            <p class="text-sm text-gray-500 italic mt-1">A segurança custa menos que um cafézinho por mês!</p>
                         </div>
                         <ul class="space-y-3 text-gray-600">
                             <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Perfil de Emergência</li>
                             <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Pulseira com QR Code Inclusa</li>
                             <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Acesso Ilimitado à Plataforma</li>
                         </ul>
-                        <a href="#" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Assinar Plano Individual</a>
+                        <a href="#lancamento" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Quero ser avisado</a>
                     </div>
                     
-                    <div class="w-full max-w-md border-2 border-primary rounded-xl p-8 shadow-2xl relative transform hover:-translate-y-2 transition-transform">
+                    <div class="w-full max-w-md border-2 border-primary rounded-xl p-8 shadow-2xl relative transform hover:-translate-y-2 transition-transform bg-white">
                         <div class="absolute top-0 -translate-y-1/2 bg-primary text-white font-semibold px-4 py-1 rounded-full text-sm">Mais Popular</div>
-                        <h3 class="text-2xl font-bold text-primary">Família</h3>
+                        <h3 class="text-2xl font-bold text-primary">Família & Pets</h3>
                         <p class="text-gray-500 mt-2">Proteja todos que você ama.</p>
                         <div class="my-6">
                             <span class="text-5xl font-extrabold text-gray-900">R$ 99,90</span>
                             <span class="text-gray-500">/por ano</span>
+                            <p class="text-gray-700 font-semibold mt-2">ou 12x de R$ 8,33 sem juros</p>
+                            <p class="text-sm text-gray-500 italic mt-1">A segurança custa menos que um cafézinho por mês!</p>
                         </div>
                         <ul class="space-y-3 text-gray-600">
-                             <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Até 5 Perfis de Emergência</li>
-                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Pulseira com QR Code Inclusa</li>
-                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Gerenciamento Familiar Centralizado</li>
+                             <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Até 5 Perfis (incluindo pets)</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Pulseira ou Coleira Inclusa</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Gerenciamento Centralizado</li>
                         </ul>
-                        <a href="#" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Assinar Plano Família</a>
+                        <a href="#lancamento" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Quero ser avisado</a>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="lancamento" class="py-20 md:py-28 bg-primary text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Lançamento em Dezembro de 2025!</h2>
+                <p class="text-lg text-blue-200 max-w-3xl mx-auto mb-8">
+                    Estamos finalizando os últimos detalhes para oferecer a melhor experiência para você. Deixe seu e-mail para ser notificado no dia do lançamento e fazer parte do nosso grupo fundador.
+                </p>
+                <div class="bg-white text-gray-900 rounded-xl p-8 max-w-2xl mx-auto shadow-2xl">
+                    <h3 class="text-2xl font-bold">Oferta Exclusiva para os Primeiros Apoiadores!</h3>
+                    <p class="text-gray-600 mt-2">Os <span class="font-bold text-primary">1000 primeiros</span> usuários que assinarem no lançamento terão <span class="font-bold text-primary">50% DE DESCONTO</span> no primeiro ano!</p>
+                    <p class="mt-6 font-semibold">Para garantir seu aviso, envie um e-mail para:</p>
+                    <a href="mailto:ldp21k@outlook.com?subject=Taglifes.com" class="text-xl font-bold text-accent hover:text-accent-dark transition-colors my-2 inline-block">
+                        ldp21k@outlook.com
+                    </a>
+                    <p class="text-gray-500">Com o assunto: <strong class="text-gray-700">"Taglifes.com"</strong></p>
+                    <p class="text-sm text-gray-400 mt-4">Você será notificado automaticamente assim que a plataforma for ao ar. Sem spam, prometido! Venha ser parte dessa iniciativa!</p>
+                </div>
+            </div>
+        </section>
+        
         <section id="como-funciona" class="py-20 md:py-28 bg-light">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Simples de começar, essencial para ter.</h2>
                 <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-10">
                     <div class="bg-white p-8 rounded-xl shadow-lg text-left">
                         <div class="bg-blue-100 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-5"><svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 3.75a3 3 0 00-3 3v.75h21v-.75a3 3 0 00-3-3h-15zM22.5 9.75h-21v7.5a3 3 0 003 3h15a3 3 0 003-3v-7.5zm-18.75 3.75a.75.75 0 01.75-.75h6a.75.75 0 010 1.5h-6a.75.75 0 01-.75-.75z" /></svg></div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">1. Escolha seu Plano</h3>
-                        <p class="text-gray-600">Selecione a opção Individual ou Família e crie sua conta em minutos.</p>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">1. Entre para a Lista</h3>
+                        <p class="text-gray-600">Envie seu e-mail para ser notificado no lançamento e garantir seu desconto de fundador.</p>
                     </div>
                     <div class="bg-white p-8 rounded-xl shadow-lg text-left">
                         <div class="bg-blue-100 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-5"><svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 015.69 3.117.75.75 0 01-.88.943A5.25 5.25 0 0012 15a5.25 5.25 0 00-4.81 1.06.75.75 0 01-.88-.943zM15.44 15.117a5.25 5.25 0 014.81 1.06.75.75 0 01-.88.943A6.745 6.745 0 0012 18.75a6.745 6.745 0 00-5.69-3.117.75.75 0 01.88-.943A5.25 5.25 0 0012 15a5.25 5.25 0 003.44-1.06z" clip-rule="evenodd" /></svg></div>
                         <h3 class="text-xl font-bold text-gray-900 mb-2">2. Crie os Perfis</h3>
-                        <p class="text-gray-600">Preencha as informações de emergência essenciais para você e seus entes queridos.</p>
+                        <p class="text-gray-600">Após o lançamento, preencha as informações de emergência para você, seus entes queridos e seus pets.</p>
                     </div>
                     <div class="bg-white p-8 rounded-xl shadow-lg text-left">
                         <div class="bg-blue-100 text-primary w-14 h-14 rounded-full flex items-center justify-center mb-5"><svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.25 3.75A1.5 1.5 0 0112.75 3h6a1.5 1.5 0 011.5 1.5v6a1.5 1.5 0 01-1.5 1.5h-6a1.5 1.5 0 01-1.5-1.5v-6z" /><path d="M12.75 4.5a.75.75 0 00-.75.75v4.5a.75.75 0 00.75.75h4.5a.75.75 0 000-1.5h-3.75V5.25a.75.75 0 00-.75-.75z" /><path d="M3.75 8.25A1.5 1.5 0 015.25 7.5h6a1.5 1.5 0 011.5 1.5v6a1.5 1.5 0 01-1.5 1.5h-6A1.5 1.5 0 013.75 15v-6.75zM5.25 9a.75.75 0 00-.75.75v4.5a.75.75 0 00.75.75h4.5a.75.75 0 000-1.5H6V9.75a.75.75 0 00-.75-.75z" /><path d="M8.25 18.75A1.5 1.5 0 019.75 18h6a1.5 1.5 0 011.5 1.5v.75a3 3 0 01-3 3h-1.5a3 3 0 01-3-3v-.75zM10.5 19.5a.75.75 0 00-.75.75v.75a1.5 1.5 0 001.5 1.5h1.5a1.5 1.5 0 001.5-1.5v-.75a.75.75 0 00-.75-.75h-3z" /></svg></div>
                         <h3 class="text-xl font-bold text-gray-900 mb-2">3. Receba e Ative</h3>
-                        <p class="text-gray-600">Sua pulseira chegará em sua casa. Ative-a com um simples scan e pronto!</p>
+                        <p class="text-gray-600">Seu produto chegará em sua casa. Ative-o com um simples scan e pronto!</p>
                     </div>
                 </div>
             </div>
@@ -210,8 +255,8 @@
         <div class="container mx-auto px-6 py-12">
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
                 <div class="col-span-2 lg:col-span-2">
-                    <a href="#" class="text-2xl font-bold text-white">Taglife.com</a>
-                    <p class="mt-2">Segurança e tranquilidade para sua família.</p>
+                    <a href="#" class="text-2xl font-bold text-white">Taglifes.com</a>
+                    <p class="mt-2">Segurança e tranquilidade para sua família e pets.</p>
                 </div>
                 <div>
                     <h4 class="font-semibold text-white tracking-wider">Produto</h4>
@@ -238,7 +283,7 @@
                 </div>
             </div>
             <div class="mt-10 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-sm">
-                <p>&copy; 2025 Taglife.com. Todos os direitos reservados.</p>
+                <p>&copy; 2025 Taglifes.com. Todos os direitos reservados.</p>
                 <div class="flex space-x-4 mt-4 md:mt-0">
                     <a href="#" class="hover:text-white"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.038c-5.523 0-10 4.477-10 10 0 4.993 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.166 22 17.031 22 12.038c0-5.523-4.477-10-10-10z"/></svg></a>
                     <a href="#" class="hover:text-white"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.038c-5.523 0-10 4.477-10 10 0 5.523 4.477 10 10 10 5.523 0 10-4.477 10-10S17.523 2.038 12 2.038zm4.25 12.632c0 .4-.325.725-.725.725h-7.05c-.4 0-.725-.325-.725-.725V9.407c0-.4.325-.725.725-.725h7.05c.4 0 .725.325.725.725v5.26zM12 11.232c-1.54 0-2.79 1.25-2.79 2.79s1.25 2.79 2.79 2.79 2.79-1.25 2.79-2.79-1.25-2.79-2.79-2.79zm4.31-1.92h-1.03v1.03h1.03v-1.03z"/></svg></a>
