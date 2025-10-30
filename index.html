@@ -14,6 +14,7 @@
     
     <script>
       // Customização do Tailwind para usar a fonte 'Poppins' e as cores do projeto
+      // ESTE CÓDIGO FOI MANTIDO EXATAMENTE COMO O ORIGINAL
       tailwind.config = {
         theme: {
           extend: {
@@ -51,8 +52,9 @@
                 <a href="#" class="text-2xl font-bold text-primary">Taglifes.com</a>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#como-funciona" class="text-gray-600 hover:text-primary transition-colors">Como Funciona</a>
-                    <a href="#produtos" class="text-gray-600 hover:text-primary transition-colors">Produtos</a>
+                    <a href="#produtos-fisicos" class="text-gray-600 hover:text-primary transition-colors">Produtos</a>
                     <a href="#precos" class="text-gray-600 hover:text-primary transition-colors">Preços</a>
+                    <a href="#exemplo-perfil" class="text-gray-600 hover:text-primary transition-colors">Exemplo</a>
                 </div>
                 <a href="#lancamento" class="hidden md:block bg-accent text-white font-semibold px-5 py-2 rounded-lg hover:bg-accent-dark transition-colors">
                     Seja Avisado!
@@ -89,7 +91,7 @@
                                     <div class="space-y-4">
                                         <div class="text-center">
                                             <img src="profile.webp" alt="Foto do usuário Lucas Damasceno" class="w-24 h-24 rounded-full mx-auto border-4 border-white shadow-md">
-                                            <h2 class="text-xl font-bold text-gray-900 mt-2">Lucas Damasceno</h2>
+                                            <h2 class="text-xl font-bold text-gray-900 mt-2">Pedro Silva</h2>
                                         </div>
                                         
                                         <div class="bg-white p-3 rounded-xl flex justify-center">
@@ -127,117 +129,134 @@
             </div>
         </section>
 
-        <section id="produtos" class="py-20 md:py-28 bg-light">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Seu Perfil de Segurança em Produtos para o Dia a Dia</h2>
-                </div>
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div class="text-center">
-                        <img src="./pulseira.webp" alt="Pulseira de silicone preta com placa de metal e QR Code" class="rounded-lg shadow-xl mb-6 mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
-                        <h3 class="text-2xl font-bold text-gray-900">Pulseira de Silicone</h3>
-                        <p class="text-gray-600 mt-2 max-w-md mx-auto">Confortável, durável e à prova d'água. Ideal para atletas, crianças e idosos. A primeira pulseira já está inclusa em qualquer plano anual.</p>
-                    </div>
-                    <div class="text-center">
-                        <img src="./tag-qrcode.jpg" alt="Adesivos com QR Code colados em capacete e celular" class="rounded-lg shadow-xl mb-6 mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
-                        <h3 class="text-2xl font-bold text-gray-900">Adesivos de Alta Resistência</h3>
-                        <p class="text-gray-600 mt-2 max-w-md mx-auto">Perfeitos para equipamentos e objetos pessoais. Nossos adesivos são à prova d'água e feitos para durar. Compre avulsamente em sua área de membro.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="pets" class="py-20 md:py-28 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="grid md:grid-cols-2 gap-16 items-center">
-                    <div class="text-center md:text-left">
-                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">E para o seu melhor amigo também!</h2>
-                        <p class="text-lg text-gray-600 mb-6">Porque a segurança deles é tão importante quanto a nossa. Crie um perfil para seu pet com informações de contato, dados do veterinário e qualquer cuidado especial.</p>
-                        <h3 class="text-2xl font-bold text-gray-900">Coleira com QR Code</h3>
-                        <p class="text-gray-600 mt-2">Leve, resistente e segura. Caso seu pet se perca, qualquer pessoa que o encontrar pode escanear a tag e entrar em contato com você imediatamente.</p>
-                    </div>
-                    <div class="flex justify-center">
-                         <img src="./pet.jpg" alt="Coleira para pet com tag de identificação QR Code" class="rounded-lg shadow-xl mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="precos" class="py-20 md:py-28 bg-light">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Escolha o plano ideal para sua tranquilidade</h2>
                 </div>
-                <div class="flex flex-col lg:flex-row justify-center items-center gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center max-w-5xl mx-auto">
+                    
                     <div class="w-full max-w-md border border-gray-200 rounded-xl p-8 shadow-lg transform hover:-translate-y-2 transition-transform bg-white">
-                        <h3 class="text-2xl font-bold text-gray-900">Individual</h3>
-                        <p class="text-gray-500 mt-2">Perfeito para uso pessoal.</p>
+                        <h3 class="text-2xl font-bold text-gray-900">Modo Demo</h3>
+                        <p class="text-gray-500 mt-2">Teste a plataforma.</p>
                         <div class="my-6">
-                            <span class="text-5xl font-extrabold text-gray-900">R$ 39,90</span>
-                            <span class="text-gray-500">/por ano</span>
-                            <p class="text-gray-700 font-semibold mt-2">ou 12x de R$ 3,33 sem juros</p>
-                            <p class="text-sm text-gray-500 italic mt-1">A segurança custa menos que um cafézinho por mês!</p>
+                            <span class="text-5xl font-extrabold text-gray-900">Gratuito</span>
                         </div>
                         <ul class="space-y-3 text-gray-600">
-                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Perfil de Emergência</li>
-                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Pulseira com QR Code Inclusa</li>
-                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Acesso Ilimitado à Plataforma</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Permite preencher 100% do perfil</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Permite gerar o QR Code</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-gray-400 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd" /></svg>Limitação: o perfil não está público/ativo</li>
                         </ul>
                         <a href="#lancamento" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Quero ser avisado</a>
                     </div>
                     
-                    <div class="w-full max-w-md border-2 border-primary rounded-xl p-8 shadow-2xl relative transform hover:-translate-y-2 transition-transform bg-white">
-                        <div class="absolute top-0 -translate-y-1/2 bg-primary text-white font-semibold px-4 py-1 rounded-full text-sm">Mais Popular</div>
-                        <h3 class="text-2xl font-bold text-primary">Família & Pets</h3>
-                        <p class="text-gray-500 mt-2">Proteja todos que você ama.</p>
+                    <div class="w-full max-w-md border border-gray-200 rounded-xl p-8 shadow-lg transform hover:-translate-y-2 transition-transform bg-white">
+                        <h3 class="text-2xl font-bold text-gray-900">Plano Básico</h3>
+                        <p class="text-gray-500 mt-2">Para o essencial.</p>
                         <div class="my-6">
-                            <span class="text-5xl font-extrabold text-gray-900">R$ 99,90</span>
-                            <span class="text-gray-500">/por ano</span>
-                            <p class="text-gray-700 font-semibold mt-2">ou 12x de R$ 8,33 sem juros</p>
-                            <p class="text-sm text-gray-500 italic mt-1">A segurança custa menos que um cafézinho por mês!</p>
+                            <span class="text-5xl font-extrabold text-gray-900">R$ 9,90</span>
+                            <span class="text-gray-500">/pagamento único</span>
                         </div>
                         <ul class="space-y-3 text-gray-600">
-                             <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Até 5 Perfis (incluindo pets)</li>
-                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Pulseira ou Coleira Inclusa</li>
-                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Gerenciamento Centralizado</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Ativa o perfil</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Informações essenciais (Nome e 1 Contato)</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Upload de Foto de Perfil</li>
+                        </ul>
+                        <a href="#lancamento" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Quero ser avisado</a>
+                    </div>
+
+                    <div class="w-full max-w-md border-2 border-primary rounded-xl p-8 shadow-2xl relative transform hover:-translate-y-2 transition-transform bg-white">
+                        <div class="absolute top-0 -translate-y-1/2 bg-primary text-white font-semibold px-4 py-1 rounded-full text-sm">Mais Popular</div>
+                        <h3 class="text-2xl font-bold text-primary">Plano Premium</h3>
+                        <p class="text-gray-500 mt-2">O mais completo.</p>
+                        <div class="my-6">
+                            <span class="text-5xl font-extrabold text-gray-900">R$ 29,90</span>
+                            <span class="text-gray-500">/pagamento único</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-600">
+                             <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Tudo do Básico</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Alergias, tipo sanguíneo, plano de saúde</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Múltiplos Contatos de Emergência</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Histórico Médico Básico</li>
+                        </ul>
+                        <a href="#lancamento" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Quero ser avisado</a>
+                    </div>
+
+                    <div class="w-full max-w-md border border-gray-200 rounded-xl p-8 shadow-lg transform hover:-translate-y-2 transition-transform bg-white">
+                        <h3 class="text-2xl font-bold text-gray-900">Plano Família</h3>
+                        <p class="text-gray-500 mt-2">Proteja todos que você ama.</p>
+                        <div class="my-6">
+                            <span class="text-5xl font-extrabold text-gray-900">R$ 79,90</span>
+                            <span class="text-gray-500">/pagamento único</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>5 Perfis Premium</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Gerenciamento centralizado</li>
                         </ul>
                         <a href="#lancamento" class="mt-8 block w-full bg-accent text-white text-center font-semibold py-3 rounded-lg hover:bg-accent-dark transition-colors">Quero ser avisado</a>
                     </div>
                 </div>
             </div>
         </section>
-
-<section id="lancamento" class="py-20 md:py-28 bg-primary text-white">
-    <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Lançamento em Dezembro de 2025!</h2>
-        <p class="text-lg text-blue-200 max-w-3xl mx-auto mb-8">
-            Estamos finalizando os últimos detalhes para oferecer a melhor experiência para você. Cadastre-se para ser notificado no dia do lançamento e fazer parte do nosso grupo fundador.
-        </p>
-        <div class="bg-white text-gray-900 rounded-xl p-8 max-w-2xl mx-auto shadow-2xl">
-            <h3 class="text-2xl font-bold">Oferta Exclusiva para os Primeiros Apoiadores!</h3>
-            <p class="text-gray-600 mt-2">Os <span class="font-bold text-primary">1000 primeiros</span> usuários que assinarem no lançamento terão <span class="font-bold text-primary">50% DE DESCONTO</span> no primeiro ano!</p>
-            
-            <form action="https://formspree.io/f/mnngwvez" method="POST" class="mt-6">
-                <div class="flex flex-col sm:flex-row gap-3">
-                    <input 
-                        type="email" 
-                        name="email" 
-                        placeholder="Digite seu melhor e-mail" 
-                        required 
-                        class="flex-grow w-full px-4 py-3 text-gray-800 bg-gray-100 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                    >
-                    <button 
-                        type="submit" 
-                        class="bg-accent text-white font-bold py-3 px-6 rounded-lg hover:bg-accent-dark transition-colors"
-                    >
-                        Quero ser avisado!
-                    </button>
+        
+        <section id="produtos-fisicos" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Produtos Físicos (Em breve)</h2>
+                     <p class="text-lg text-gray-600 mt-4">As imagens abaixo são apenas demonstrações — os produtos ainda estão sendo desenvolvidos.</p>
                 </div>
-            </form>
-            <p class="text-sm text-gray-400 mt-4">Você será notificado assim que a plataforma for ao ar. Sem spam, prometido! Venha ser parte dessa iniciativa!</p>
-        </div>
-    </div>
-</section>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+                    <div class="text-center">
+                        <img src="./pulseira.webp" alt="Pulseira Inteligente" class="rounded-lg shadow-xl mb-6 mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
+                        <h3 class="text-2xl font-bold text-gray-900">Pulseira Inteligente</h3>
+                        <p class="text-gray-600 mt-2 max-w-md mx-auto">Resistente à água, ideal para adultos e crianças.</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="./tag-qrcode.jpg" alt="Adesivo QR Code" class="rounded-lg shadow-xl mb-6 mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
+                        <h3 class="text-2xl font-bold text-gray-900">Adesivo QR Code</h3>
+                        <p class="text-gray-600 mt-2 max-w-md mx-auto">Ideal para capacetes, carteiras e equipamentos.</p>
+                    </div>
+                    <div class="text-center">
+                         <img src="./pet.jpg" alt="Coleira Pet" class="rounded-lg shadow-xl mb-6 mx-auto transition-transform transform hover:scale-105 w-full max-w-sm h-auto object-contain">
+                        <h3 class="text-2xl font-bold text-gray-900">Coleira Pet</h3>
+                        <p class="text-gray-600 mt-2 max-w-md mx-auto">Ajuda na identificação e retorno de pets perdidos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="lancamento" class="py-20 md:py-28 bg-primary text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Lançamento em Dezembro de 2025!</h2>
+                <p class="text-lg text-blue-200 max-w-3xl mx-auto mb-8">
+                    Estamos finalizando os últimos detalhes para oferecer a melhor experiência para você. Cadastre-se para ser notificado no dia do lançamento e fazer parte do nosso grupo fundador.
+                </p>
+                <div class="bg-white text-gray-900 rounded-xl p-8 max-w-2xl mx-auto shadow-2xl">
+                    <h3 class="text-2xl font-bold">Oferta Exclusiva para os Primeiros Apoiadores!</h3>
+                    <p class="text-gray-600 mt-2">Os <span class="font-bold text-primary">1000 primeiros</span> usuários que assinarem no lançamento terão <span class="font-bold text-primary">50% DE DESCONTO</span> nos Produtos Fisicos.</p>
+                    
+                    <form action="https://formspree.io/f/mnngwvez" method="POST" class="mt-6">
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <input 
+                                type="email" 
+                                name="email" 
+                                placeholder="Digite seu melhor e-mail" 
+                                required 
+                                class="flex-grow w-full px-4 py-3 text-gray-800 bg-gray-100 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                            >
+                            <button 
+                                type="submit" 
+                                class="bg-accent text-white font-bold py-3 px-6 rounded-lg hover:bg-accent-dark transition-colors"
+                            >
+                                Quero ser avisado!
+                            </button>
+                        </div>
+                    </form>
+                    <p class="text-sm text-gray-400 mt-4">Você será notificado assim que a plataforma for ao ar. Sem spam, prometido! Venha ser parte dessa iniciativa!</p>
+                </div>
+            </div>
+        </section>
         
         <section id="como-funciona" class="py-20 md:py-28 bg-light">
             <div class="container mx-auto px-6 text-center">
@@ -276,7 +295,7 @@
                     <ul class="mt-4 space-y-2">
                         <li><a href="#como-funciona" class="hover:text-white">Como Funciona</a></li>
                         <li><a href="#precos" class="hover:text-white">Preços</a></li>
-                        <li><a href="#produtos" class="hover:text-white">Produtos</a></li>
+                        <li><a href="#produtos-fisicos" class="hover:text-white">Produtos</a></li>
                     </ul>
                 </div>
                 <div>
